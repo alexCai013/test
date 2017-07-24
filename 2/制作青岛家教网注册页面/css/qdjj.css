@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+body {
+    background-color: rgb(11, 99, 129);
+}
+
+article {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    margin: 10px auto;
+    width: 710px;
+}
+
+
+/*头部start*/
+
+header {
+    margin: 0px auto;
+    width: 90%;
+    padding: 10px;
+}
+
+header nav {
+    float: right;
+    margin-top: 55px;
+}
+
+header a {
+    color: rgb(255, 0, 153);
+    margin-left: 10px;
+}
+
+
+/*头部end*/
+
+
+/*中部end*/
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+table,
+tr,
+td {
+    border: 1px solid rgb(193, 193, 193);
+}
+
+td{
+	padding:2px;
+}
+
+.fontCenter {
+    text-align: center;
+}
+
+.fontRight {
+    text-align: right;
+}
+
+.titleTd {
+    color: #003399;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    padding-left:4px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.button {
+    text-align: center;
+    height: 82px;
+}
+
+
+/*中部end*/
+
+
+/*底部start*/
+
+footer {
+    text-align: center;
+    height: 46px;
+}
+
+footer font {
+    color: #666666;
+}
+
+
+/*底部end*/

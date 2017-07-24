@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+}
+
+
+/*上部DIV*/
+
+.top {
+    background-color: rgb(29, 114, 289);
+    margin-left: 100px;
+}
+
+
+/*左部DIV*/
+
+.left {
+    background-color: rgb(250, 46, 53);
+    position: relative;
+    float: left;
+}
+
+
+/*中部DIV*/
+
+.center {
+    background: url("../img/google.ico");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+    position: relative;
+    float: left;
+}
+
+
+/*右部DIV*/
+
+.right {
+    background-color: rgb(253, 243, 75);
+    position: relative;
+    float: left;
+}
+
+
+/*下部DIV*/
+
+.bottom {
+    background-color: rgb(98, 237, 98);
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+}
