@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>作业1</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div>
+        <p>将0~100分学员以10分为界，分为十段，然后计算出该生为数字几等生</p>
+        <br/>
+        <!-- 输入框 -->
+        <input id="num" type="text" placeholder="请输入0-100的数字">
+        <!-- 结果反馈 -->
+        <span id="result"> </span>
+        <br/>
+        <!-- 提交按钮 -->
+        <button onclick="checkNumber()">提 交</button>
+    </div>
+    <script type="text/javascript">
+    function checkNumber() {
+        var n = document.getElementById("num").value;
+        // 数字验证
+        var reg = new RegExp("^(100|[1-9]\\d|\\d)$").test(n);
+        if (!reg) {
+            document.getElementById("result").innerHTML = "请输入正确的数字";
+            document.getElementById("result").style.color = "red";
+        } else {
+            // 等级判定
+            var level = (n == 100 ? 1 : 10 - Math.floor(n / 10));
+            document.getElementById("result").innerHTML = "您为" + level + "等生";
+            document.getElementById("result").style.color = "#FFF";
+        }
+        return;
+    }
+    </script>
+</body>
+
+</html>

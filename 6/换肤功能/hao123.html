@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hao123换肤</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" id="color_css" href="./css/green.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <header>
+            <!-- logo -->
+            <div class="logo_div">
+                <img class="logo_img" src="./img/logo.png" />
+            </div>
+            <!-- 头部中部内容 -->
+            <div class="header_center">
+                <div class="header_weather">
+                    <span>上海&nbsp;&nbsp;&nbsp;</span>
+                    <span class="weather_img"></span>
+                    <span>多云 18 ~ 10℃</span>
+                </div>
+                <div class="header_calendar">
+                    <span>3月29日   周三</span>
+                </div>
+                <div class="header_slide">
+                    <span>三月初二</span>
+                </div>
+                <div class="header_start">
+                    <span>星座运势</span>
+                </div>
+            </div>
+            <!-- 换肤 -->
+            <div class="header_color" onclick="openColorDiv()">
+                <span>换肤</span>
+            </div>
+            <div class="color_div" id="color_div" hidden>
+                <span class="green" onclick="changeCss('green')"></span>
+                <span class="orange" onclick="changeCss('orange')"></span>
+                <span class="red" onclick="changeCss('red')"></span>
+                <span class="blue" onclick="changeCss('blue')"></span>
+                <span class="pink" onclick="changeCss('pink')"></span>
+                <span class="yellow" onclick="changeCss('yellow')"></span>
+                <span class="violet" onclick="changeCss('violet')"></span>
+                <span class="cancel" onclick="cancelColorDiv()"></span>
+            </div>
+        </header>
+        <!-- 搜索区内容 -->
+        <div class="center_search">
+            <div class="search_div">
+                <!-- 图片 -->
+                <div class="baidu_logo">
+                    <img src="./img/baidu.png" />
+                </div>
+                <!-- 搜索区 -->
+                <div class="search_form">
+                    <input class="input-hook" type="text" maxlength="100" placeholder="搜你想搜的" />
+                    <input class="button-hook" type="button" value="百度一下">
+                </div>
+            </div>
+        </div>
+        <!-- 内容部分 -->
+        <div class="info">
+            <div class="menus-wrap">
+                <ul class="menus">
+                    <li class="first"><span>首页</span></li>
+                    <li><span>电视剧</span></li>
+                    <li><span>最新电影</span></li>
+                    <li><span>新闻头条</span></li>
+                    <li><span>八卦娱乐</span></li>
+                    <li><span>军事热点</span></li>
+                    <li><span>热门游戏</span></li>
+                    <li><span>小 游 戏</span></li>
+                    <li><span>今日特价</span></li>
+                    <li><span>特价旅游</span></li>
+                </ul>
+            </div>
+            <div class="govsite-top">
+                <span class="title">权威推荐</span>
+                <a>人民网</a>
+                <a>新华网</a>
+                <a>央视网</a>
+                <a>国际在线</a>
+                <a>中国日报网</a>
+                <a>中国网</a>
+                <a>中国经济网</a>
+                <a>光明网</a>
+                <a>央广网</a>
+                <a>求是网</a>
+                <a>中国青年网</a>
+                <a>中国网信网</a>
+            </div>
+            <div class="wg-trailer">
+                <div class="wg-head">
+                    <h1>电影预告片</h1>
+                </div>
+                <ul class="trailer-list clearfix">
+                    <li>
+                        <img src="https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2017-03-27/1bd7df3385d464414875c67bc530a946.jpg" alt="嫌疑人X的献身">
+                        <span>嫌疑人X的献身</span>
+                        <p class="intro">林心如陷入无限恐慌</p>
+                    </li>
+                    <li>
+                        <img src="https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2017-03-20/78884eab93dcc1394fe5da1dbd732203.jpg" alt="金刚：骷髅岛">
+                        <span>金刚：骷髅岛</span>
+                        <p class="intro">最强金刚再度来袭！</p>
+                    </li>
+                    <li>
+                        <img src="https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2017-03-13/6d86ca26d37882f9260ac6d78cad7287.jpg" alt="夜色撩人">
+                        <span>夜色撩人</span>
+                        <p class="intro">“影后”余男深夜惨遭抢劫</p>
+                    </li>
+                    <li>
+                        <img src="https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2017-03-03/4aac7f4ece14222e31081eee32d5de73.jpg" alt="欢乐喜剧人">
+                        <span>欢乐喜剧人</span>
+                        <p class="intro">"憨豆"加盟！专治不开心！</p>
+                    </li>
+                    <li>
+                        <img src="https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2017-02-24/13ba25d8c9dd84604ff583b2e8b55745.jpg" alt="金刚狼3：殊死一战 ">
+                        <span>金刚狼3：殊死一战 </span>
+                        <p class="intro">“小金刚狼”亮钢爪不好惹</p>
+                    </li>
+                    <li>
+                        <img src="https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2017-02-24/8040a311d5ff7926021d1a8d2d0b64b9.jpg" alt="生化危机：终章">
+                        <span>生化危机：终章</span>
+                        <p class="intro">终极决战 燃情落幕</p>
+                    </li>
+                    <li>
+                        <img src="https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2017-03-27/24eb9117a691daa325e79d8c0f803f27.jpg" alt="绑架者">
+                        <span>绑架者</span>
+                        <p class="intro">终极预告 记忆失控誓死追凶</p>
+                    </li>
+                    <li>
+                        <img src="https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/r/image/2017-02-06/44602750915ef73dde13ff5058a8a85b.jpg" alt="大闹天竺">
+                        <span>大闹天竺</span>
+                        <p class="intro">难兄难弟爆笑来袭</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="./js/style.js"></script>
+</body>
+
+</html>

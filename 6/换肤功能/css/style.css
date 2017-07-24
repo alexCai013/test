@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+
+/*头部 start*/
+
+header {
+    width: 990px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 12px;
+    font-family: Tahoma;
+    color: #999;
+    line-height: 60px;
+}
+
+header .logo_div {
+    float: left;
+}
+
+header .logo_img {
+    width: 168px;
+    height: 60px;
+}
+
+header .header_center {
+    float: left;
+    margin-left: 35px;
+}
+
+header .header_center div {
+    float: left;
+    margin: 0 5px 0 5px;
+    padding: 0 5px 0 5px;
+}
+
+header .header_center div:hover {
+    background: #f7f7f7;
+}
+
+header .header_weather .weather_img {
+    background-image: url("https://gss0.bdstatic.com/5eR1dDebRNRTm2_p8IuM_a/res/weather/v1/a1.png");
+    width: 26px;
+    height: 60px;
+    background-position: 0 16px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    display: inline-block;
+}
+
+header .header_color {
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    float: right;
+}
+
+header .header_color:hover {
+    background: #f7f7f7;
+    cursor: pointer;
+}
+
+
+/*头部 end*/
+
+
+/*搜索区部分 start*/
+
+.center_search {
+    border-top: 1px solid #ccc;
+    height: 83px;
+    width: 100%;
+}
+
+.search_div {
+    width: 990px;
+    height: 82px;
+    margin: 0 auto;
+    position: relative;
+    line-height: 82px;
+    color: #999;
+    font-size: 12px;
+}
+
+.baidu_logo {
+    width: 120px;
+    height: 39px;
+    float: left;
+    margin: 25px 20px 20px -98px;
+}
+
+.baidu_logo img {
+    width: 120px;
+    height: 39px;
+}
+
+.search_form {
+    float: left;
+    margin-top: 28px;
+}
+
+.search_div .input-hook {
+    width: 538px;
+    height: 44px;
+    border: 1px solid #666;
+    border-right: 0;
+    background: #fff;
+    float: left;
+    padding-left: 20px;
+}
+
+.search_div .button-hook {
+    border: 1px solid #666;
+    border-left-color: #999;
+    width: 118px;
+    height: 46px;
+    font-family: arial;
+    font-size: 16px;
+    color: #222;
+    background: #e6e6e6;
+    cursor: pointer;
+    float: left;
+}
+
+
+/*搜索区部分 end*/
+
+
+/*内容部分 start*/
+
+.info {
+    width: 990px;
+    margin: 20px auto;
+}
+
+.menus-wrap {
+    position: relative;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.menus-wrap .menus {
+    margin: 0 auto;
+    height: 38px;
+    list-style: none;
+}
+
+.menus li {
+    position: relative;
+    float: left;
+    width: 101px;
+    display: block;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    color: #333;
+}
+
+.menus .first {
+    width: 81px;
+    color: #fff;
+}
+
+.menus .first:hover {
+    color: #fff;
+}
+
+.govsite-top {
+    position: relative;
+    margin: -11px auto 10px;
+    padding: 8px 0;
+    line-height: 20px;
+    font-size: 14px;
+    background: #fff;
+}
+
+.govsite-top a {
+    padding: 0 8px;
+    display: inline-block;
+}
+
+.govsite-top .title {
+    padding: 0 12px;
+    width: 80px;
+    text-align: center;
+}
+
+
+.wg-trailer {
+    margin: 0 auto;
+    width: 990px;
+    margin-top: 15px;
+}
+
+.wg-head{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f7f7f7;
+    margin-bottom: 10px;
+}
+
+.wg-head h1{
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+    text-indent: 10px;
+}
+
+.wg-trailer li {
+    width: 210px;
+    overflow: hidden;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.wg-trailer span {
+    color: #333;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.wg-trailer .intro {
+    color: #999;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+/*内容部分 end*/
+
+.color_div {
+    position: absolute;
+    width: 990px;
+    height: 60px;
+    background: #fff;
+}
+
+.color_div span {
+    height: 40px;
+    width: 40px;
+    margin: 10px 10px 0 10px;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.color_div .red {
+    background: #ff0000;
+}
+
+.color_div .orange {
+    background: #ff6600;
+}
+
+.color_div .blue {
+    background: #3366ff;
+}
+
+.color_div .green {
+    background: #099e6a;
+}
+
+.color_div .pink {
+    background: #EE7AE9;
+}
+
+.color_div .yellow {
+    background: #EEEE00;
+}
+
+.color_div .violet {
+    background: #9F79EE;
+}
+
+
+/*取消按钮*/
+
+.color_div .cancel {
+    background: url(../img/cancel.png);
+    background-size: 40px;
+    float: right;
+}

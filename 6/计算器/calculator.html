@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <div id="cac">
+        <!-- 显示区 -->
+        <div class="c_show">
+            <input type="text" class="s_text" onfocus="this.blur();" value="0" id="result" />
+        </div>
+        <!-- 键位区 -->
+        <div class="c_key">
+            <ul>
+                <!-- 回退 -->
+                <li class="c_first" id="del">←</li>
+                <!-- 清零 -->
+                <li class="c_first" id="clearzero">c</li>
+                <!-- 求余 -->
+                <li class="c_first" id="persent">%</li>
+                <!-- 根号 -->
+                <li class="c_tool" id="sqrt">√</li>
+                <!-- sin -->
+                <li class="c_first" id="sin">sin</li>
+                <!-- cos -->
+                <li class="c_first" id="cos">cos</li>
+                <!-- tan -->
+                <li class="c_first" id="tan">tan</li>
+                <!-- 除 -->
+                <li class="c_tool" id="divide">÷</li>
+                <!-- 7 -->
+                <li id="n7">7</li>
+                <!-- 8 -->
+                <li id="n8">8</li>
+                <!-- 9 -->
+                <li id="n9">9</li>
+                <!-- 乘 -->
+                <li class="c_tool" id="times">×</li>
+                <!-- 4 -->
+                <li id="n4">4</li>
+                <!-- 5 -->
+                <li id="n5">5</li>
+                <!-- 6 -->
+                <li id="n6"">6</li>
+                <!-- 减 -->
+                <li class="c_tool" id="minus">-</li>
+                <!-- 1 -->
+                <li id="n1">1</li>
+                <!-- 2 -->
+                <li id="n2">2</li>
+                <!-- 3 -->
+                <li id="n3"">3</li>
+                <!-- 加 -->
+                <li class="c_tool" id="plus">+</li>
+                <!-- 0 -->
+                <li class="db" id="n0">0</li>
+                <!-- 小数点 -->
+                <li id="dot">.</li>
+                <!-- 等于 -->
+                <li class="c_tool" id="equal">=</li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/calculator.js"></script>
+</body>
+
+</html>

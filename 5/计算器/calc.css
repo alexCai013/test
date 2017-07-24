@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+body {
+    position: relative;
+    background-color: #27AE60;
+    text-align: center;
+}
+
+div {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    margin: 200px 0 0 -200px;
+    top: 50%;
+    left: 50%;
+}
+
+input,
+button,
+select {
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    border: 0;
+    float: left;
+}
+
+
+/*结果集*/
+
+span {
+    margin-top: 50px;
+    width: 100%;
+    display: block;
+}
+
+
+/*运算符*/
+
+select {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    background-color: #5087F8;
+}
+
+
+/*按钮*/
+
+button {
+    width: 50px;
+    height: 50px;
+    background-color: #5087F8;
+    line-height: 50px;
+}
+
+button:hover {
+    background-color: #208d4e;
+}

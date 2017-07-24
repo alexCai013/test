@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 800px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #35b558;
+}
+
+p {
+    font-size: 12px;
+    color: #b6b6b6;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 750px;
+}
+
+
+/*头部*/
+
+header {
+    height: 120px;
+    background-color: rgb(26, 32, 34);
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*底部*/
+
+footer {
+    height: 80px;
+    background-color: rgb(26, 32, 34);
+    color: rgb(41, 171, 71);
+    text-align: center;
+    line-height: 80px;
+}
+
+
+/*中部*/
+
+article {
+    min-height: 450px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+
+/*article左半部*/
+
+.left {
+    background-color: rgb(236, 236, 236);
+    border-right: 10px solid #FFFFFF;
+    width: 240px;
+    float: left;
+    margin-left: -100%;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+
+
+/*article右半部*/
+
+.right {
+    background-color: rgb(236, 236, 236);
+    border-left: 10px solid #FFFFFF;
+    width: 240px;
+    float: left;
+    margin-left: -250px;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+
+
+/*article中部*/
+
+.middle {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    padding-bottom: 9999px;
+    margin-bottom: -9999px;
+}
+
+.middle_inner {
+    margin: 0 250px;
+}

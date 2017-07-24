@@ -1,0 +1,78 @@
+//头部背景色
+@bgcolor: #248bf2;
+//头部字体颜色
+@bgfontcolor: #fff;
+.container{
+	width: 1200px;
+}
+
+header {
+    background-color: @bgcolor;
+    color: @bgfontcolor;
+    height: 300px;
+}
+
+.bus_number {
+    background-color: darken(@bgcolor, 10%);
+    font-size: 100px;
+    margin: 70px;
+    padding: 20px;
+    float: left;
+}
+
+.bus_title {
+	line-height: 170px;
+	height: 170px;
+    font-size: 40px;
+}
+
+
+/*箭头 start*/
+
+.arrow-all {
+    display: inline-block;
+}
+
+.arrow(@radius) {
+    width: 0;
+    height: 0;
+    border-top: @radius solid transparent;
+    border-bottom: @radius solid transparent;
+    border-left: @radius solid @bgfontcolor;
+}
+
+.arrow-body {
+    display: inline-block;
+    height: 5px;
+    width: 150px;
+    background-color: @bgfontcolor;
+    margin-bottom: 12px;
+}
+
+.arrow-right {
+    margin-left: -20px;
+    display: inline-block;
+    .arrow(15px);
+}
+/*箭头 end*/
+
+.bus_time {
+    span {
+        font-size: 20px;
+    }
+}
+
+.contant{
+	height: 300px;
+	border: 5px solid @bgcolor;
+	li{
+		list-style-type:none;
+		height:250px;
+		width: 10px;
+		font-size: 25px;
+		float: left;
+		margin-left: 40px;
+	}
+}
+
+

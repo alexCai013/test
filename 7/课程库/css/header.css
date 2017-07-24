@@ -1,0 +1,442 @@
+            header img,
+            header ul,
+            header nav,
+            header div,
+            header span,
+            header a,
+            header i,
+            header h3 {
+                text-decoration: none;
+                padding: 0px;
+                margin: 0px;
+                vertical-align: middle;
+                box-sizing: border-box;
+                font-family: Verdana, "Lantinghei SC", "Hiragino Sans GB", "Microsoft Yahei", Helvetica, arial, \5b8b\4f53, sans-serif
+            }
+            
+            header {
+                height: 60px;
+                line-height: 60px;
+                border-bottom: 1px solid #ececec;
+                background: #fff;
+                position: relative;
+            }
+            
+            header .center {
+                width: 1000px;
+                margin: 0 auto;
+                position: relative;
+            }
+            /*logo*/
+            
+            header .logo_a {
+                float: left;
+                margin-right: 60px;
+            }
+            
+            header .logo_a img {
+                height: 40px;
+                width: 109px;
+            }
+            /*导航样式*/
+            
+            header nav {
+                float: left;
+            }
+            
+            header nav a {
+                color: #333;
+            }
+            /*导航ul*/
+            
+            header .header_nav_ul {
+                vertical-align: middle;
+                box-sizing: border-box;
+            }
+            
+            header .header_nav_ul li {
+                position: relative;
+                font-size: 14px;
+                display: inline-block;
+                margin-right: 50px;
+                cursor: pointer;
+                height: 60px;
+                float: left;
+            }
+            
+            header .header_nav_ul li:hover {
+                color: #35b558;
+            }
+            /*导航栏hover*/
+            
+            header nav li:hover .submenu {
+                display: block;
+                opacity: 0;
+                transition: opacity 2s ease-out;
+                opacity: 1;
+                /* animation: submenu 0.8s ease normal;
+            -moz-animation: submenu 0.8s ease normal;
+            -webkit-animation: submenu 0.8s ease normal;
+            -o-animation: submenu 0.8s ease normal;
+            -ms-animation: submenu 0.8s ease normal;*/
+            }
+            
+            @keyframes submenu {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+            @-moz-keyframes submenu {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+            @-webkit-keyframes submenu {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+            @-o-keyframes submenu {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+            @-ms-keyframes submenu {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+            
+            header nav .vip-lesson a:hover {
+                background: #fafafa;
+                color: #35b558;
+            }
+            
+            header nav .submenu a:hover {
+                color: #35b558;
+            }
+            /*子菜单样式*/
+            
+            header .submenu {
+                position: absolute;
+                z-index: 1000;
+                top: 60px;
+                left: 0;
+                background: #fff;
+                font-size: 12px;
+                color: #666;
+                width: 280px;
+                display: none;
+                border-top: 1px solid #ececec
+            }
+            
+            header .submenu h3 {
+                margin: 10px 0;
+                padding: 0 15px;
+                background: #fafafa;
+                height: 28px;
+                line-height: 28px;
+                font-weight: 300;
+            }
+            
+            header .submenu a {
+                display: block;
+                height: 30px;
+                line-height: 30px;
+                padding: 0 15px;
+            }
+            
+            header nav .vip-lesson a span {
+                color: #bbb;
+                float: right;
+            }
+            /*子菜单图标样式*/
+            
+            .school-list i,
+            .vip-lesson i {
+                background: url(http://e.jikexueyuan.com/headerandfooter/images/allicon.png) 0 0 no-repeat;
+                background-size: 64px 64px;
+                width: 14px;
+                height: 14px;
+                display: inline-block;
+                margin-right: 10px!important;
+            }
+            
+            .school-list i.python-icon,
+            .school-list i.go-icon,
+            .school-list i.php-icon,
+            .school-list i.ios-icon {
+                background: url(http://e.jikexueyuan.com/headerandfooter/images/allicon3.png) 0 0 no-repeat;
+                background-position: 0 0;
+                background-size: 16px 148px;
+            }
+            /*Web 前端工程师图标设定*/
+            
+            .school-list i.web-icon {
+                background-position: -15px -27px;
+            }
+            /* Python Web工程师图标设定*/
+            
+            .school-list i.python-icon {
+                background-position: -2px -2px;
+            }
+            /*Go语言工程师图标设定*/
+            
+            .school-list i.go-icon {
+                background-position: -2px -38px;
+            }
+            /*ios工程师图标设定*/
+            
+            .school-list i.ios-icon {
+                background-position: -2px -82px;
+            }
+            /*课程库图标设定*/
+            
+            .vip-lesson i.kck-icon {
+                background-position: 0 -13px;
+            }
+            /*职业路径图图标设定*/
+            
+            .vip-lesson i.zyljt-icon {
+                background-position: -45px 0;
+            }
+            /*知识体系图图标设定*/
+            
+            .vip-lesson i.zstxt-icon {
+                background-position: -30px -13px;
+            }
+            /*系列课程图标设定*/
+            
+            .vip-lesson i.xlkc-icon {
+                background: url(http://e.jikexueyuan.com/headerandfooter/images/xlkc2.png) 0 0 no-repeat;
+                background-position: 0 0;
+                background-size: 12px 12px;
+            }
+            /*课程标签图标设定*/
+            
+            .vip-lesson i.kcbq-icon {
+                background-position: -15px -13px;
+            }
+            /*VIP会员购买图标设定*/
+            
+            .vip-lesson i.vip-icon {
+                background-position: -16px 0;
+            }
+            /*技术问答图标设定*/
+            
+            .vip-lesson i.jswd-icon {
+                background-position: 0 -27px;
+            }
+            /*Wiki图标设定*/
+            
+            .vip-lesson i.wiki-icon {
+                background-position: -29px -27px;
+            }
+            /*社群图标设定*/
+            
+            .vip-lesson i.sq-icon {
+                background-position: 0 2px;
+            }
+            /*资源下载图标设定*/
+            
+            .vip-lesson i.zygx-icon {
+                background-position: -30px 0;
+            }
+            /*首页a标签样式*/
+            
+            .home_a {
+                color: #35b558;
+            }
+            /*右侧样式*/
+            
+            header .icon-box {
+                float: right;
+                text-align: right;
+                width: 200px;
+                margin-right: 10px;
+                height: 60px;
+            }
+            
+            header .icon-box span {
+                height: 60px;
+                width: 17px;
+                display: inline-block;
+                margin-left: 25px;
+                cursor: pointer;
+                background-size: 17px;
+            }
+            /*搜索图标*/
+            
+            header .search-icon {
+                background: url(../img/search-icon.png) no-repeat;
+                background-position: 0, 0;
+            }
+            
+            header .search-icon:hover {
+                background: url(../img/search-icon2.png) no-repeat;
+                background-size: 17px 17px;
+                background-position: 0, 0;
+            }
+            /*app图标*/
+            
+            header .app-icon {
+                background: url(../img/app-icon.png) no-repeat;
+                background-size: 17px 17px;
+                background-position: 0, 0;
+            }
+            
+            header .app-icon:hover {
+                background: url(../img/app-icon2.png) 0 0 no-repeat;
+                background-size: 17px;
+                background-position: 0;
+            }
+            
+            header .app-icon:hover .app-menu {
+                display: block;
+            }
+            
+            .app-menu {
+                position: absolute;
+                width: 120px;
+                z-index: 1200;
+                right: 10px;
+                top: 61px;
+                display: none;
+            }
+            
+            .app-menu .top-icon {
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+                position: absolute;
+                top: -8px;
+                width: 15px;
+                height: 15px;
+                border-top: 1px solid #ececec;
+                border-left: 1px solid #ececec;
+                display: inline-block;
+                background: #fff;
+                right: 50px;
+            }
+            
+            .app-menu img {
+                width: 100%;
+            }
+            /*登录图标*/
+            
+            header .login-icon {
+                background: url(../img/login-icon.png) no-repeat;
+                background-position: 0, 0;
+            }
+            /*header箭头图标*/
+            
+            header i.arrow-icon {
+                width: 8px;
+                height: 8px;
+                border-top: 1px solid #c1c1c1;
+                border-left: 1px solid #c1c1c1;
+                display: inline-block;
+                transform: rotate(-135deg);
+                -webkit-transform: rotate(-135deg);
+                -moz-transform: rotate(-135deg);
+                -ms-transform: rotate(-135deg);
+                -o-transform: rotate(-135deg);
+            }
+            
+            header nav li:hover i.arrow-icon {
+                border-top: 1px solid #35b558;
+                border-left: 1px solid #35b558;
+                transition: transform 1s ease-out;
+                -webkit-transition: transform 1s ease-out;
+                -moz-transition: transform 1s ease-out;
+                -o-transition: transform 1s ease-out;
+                -ms-transition: transform 1s ease-out;
+                transform: rotateZ(405deg);
+                -webkit-transform: rotateZ(405deg);
+                -moz-transform: rotateZ(405deg);
+                -o-transform: rotateZ(405deg);
+                -ms-transform: rotateZ(405deg);
+            }
+            
+            .searchbox {
+                display: none;
+                height: 59px;
+                line-height: 59px;
+                width: 850px;
+                background: #fff;
+                position: absolute;
+                z-index: 11000;
+                top: 0;
+                right: 0;
+                white-space: normal;
+            }
+            
+            .searchbox .close-icon {
+                width: 15px;
+                height: 15px;
+                margin-top: 22px;
+                cursor: pointer;
+                background: url(../img/close-icon.png) 0 0 no-repeat;
+                background-size: 100% 100%;
+                position: absolute;
+                right: 0;
+                z-index: 1200;
+            }
+            
+            .searchbox .search-icon {
+                background: url(../img/search-icon.png) 0 0 no-repeat;
+                background-size: 17px 17px;
+                background-position: 0, 0;
+                height: 17px;
+                width: 17px;
+                display: inline-block;
+            }
+            
+            .searchbox input {
+                width: 400px;
+                height: 40px;
+                line-height: 40px;
+                margin-top: 10px;
+                font-size: 12px;
+                vertical-align: top;
+                margin-left: 10px;
+                border: 0;
+                outline:0;
+            }
+            
+            .searchbox .tagbox {
+                width: 300px;
+                text-align: right;
+                display: inline;
+                margin-right: 50px;
+                float: right;
+            }
+            
+            .searchbox .tagbox a {
+                font-size: 12px;
+                color: #808080;
+                background: #f5f5f5;
+                padding: 3px 5px;
+                margin-left: 10px;
+            }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>作业3</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var strArray = ["a","x","b","d","m","a","k","m","p","j","a"],obj={};
+        for(var i=0;i<strArray.length;i++){
+            if(obj[strArray[i]]){
+                obj[strArray[i]].count+=1;
+                obj[strArray[i]].position.push(i);
+            }else{
+                obj[strArray[i]] = {'count':1,'position':[i]}
+            }
+        }
+        for(attr in obj){
+            console.log(attr+"出现了"+obj[attr].count+"次;位置是："+obj[attr].position);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.menus-wrap .menus {
+    border-top: 2px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
+    background: #fcfcfc;
+}
+
+.menus li:hover {
+    color: #ff0000;
+}
+
+.menus .first {
+    background-color: #ff0000;
+}
+
+.govsite-top {
+    border: solid 1px #ff0000;
+}
+
+.govsite-top .title {
+    border-right: 1px solid #ff0000;
+    color: #ff0000;
+}
+
+.wg-trailer {
+    border-top: 1px solid #ff0000;
+}
+
+.wg-head h1{
+    color: #ff0000;
+}
+
+.wg-trailer span {
+    color: #ff0000;
+}

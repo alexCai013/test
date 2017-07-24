@@ -1,0 +1,61 @@
+*{  
+    padding:0px;
+    margin:0px;
+}
+#cac{   
+    width:240px;
+    height:460px;
+    margin:0 auto;
+    border-left: 1px solid #000;
+    margin-top:100px;
+    position: relative;
+}
+/*显示区*/
+#cac .c_show .s_text{  
+    width:240px;
+    height:100px;
+    border:none;
+    line-height:100px;
+    text-align:right;
+    font-size:2em;
+    background:#000;
+    color:#fff;
+}
+
+/*按钮区*/
+#cac .c_key ul li{  
+    float:left;
+    width:59px;
+    height:59px;
+    background:#eaeaea;
+    text-align:center;
+    line-height:59px;
+    font-size:20px;
+    cursor:pointer;
+    list-style:none;
+    border-right:1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+/*第一排按钮颜色*/
+#cac .c_key ul .c_first{
+     background:#A8A8A8;
+     font-weight: lighter;
+}
+/*功能区按键颜色*/
+#cac .c_key ul .c_tool{ 
+    background:#FFA500;
+    color:#fff;
+}
+/*0*/
+#cac .c_key .db{
+    width:119px;
+}
+
+/*按钮hover事件*/
+#cac .c_key ul li:hover{    
+    background:#9E9E9E;
+}
+#cac .c_key ul .c_tool:hover{    
+    background:#EE7600;
+}
